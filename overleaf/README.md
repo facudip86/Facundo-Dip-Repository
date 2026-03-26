@@ -1,1 +1,1 @@
-## Curriculum hecho LaTEX
+## Curriculum hecho LaTeX
