@@ -1,0 +1,138 @@
+%%%%%%%%%%%%%%%%%
+% CV de Facundo Dip 
+%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper,withhyper]{altacv}
+
+% Configuración de página
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+\usepackage{paracol}
+
+% Selección de fuentes
+\iftutex
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Colores originales
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Ajustes de fuente de secciones
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+\begin{document}
+\name{FACUNDO DIP}
+\tagline{Industrial Engineer Student}
+
+%% FOTO: Descomenta la línea de abajo (borra el %) solo si tienes el archivo mi_foto.jpej
+ \photoR{2.8cm}{mi_foto.jpeg}
+
+\personalinfo{%
+  \email{facu.g.dip@gmail.com}
+  \phone{2613729384}
+  \mailaddress{Azcuénaga 1781, Guaymallén}
+  \location{Mendoza, ARGENTINA}
+  \xtwitter{@facundodip8}
+  \linkedin{Facundo Dip}
+  \github{facudip86}
+}
+
+\makecvheader
+
+\columnratio{0.6}
+
+\begin{paracol}{2}
+\cvsection{EXPERIENCE}
+
+\cvevent{Rental and Retail}{Vail Resorts}{December 2025 -- March 2026}{Stowe, Vermont, USA}
+\begin{itemize}
+\item Provided friendly customer service in a busy resort environment.
+\item Set up and checked equipment to make sure everything was comfortable and working correctly.
+\item Handled sales and kept the shop organized and ready for visitors.
+\end{itemize}
+
+\divider
+
+\cvevent{Costumer Service}{Anbi}{January 2025 -- March 2025}{Godoy Cruz, Mendoza, Argentina}
+\begin{itemize}
+\item Provided friendly assistance to customers and handled inquiries about products and orders.
+\item Managed daily sales and ensured a smooth shopping experience in the factory store.
+\item Collaborated with the production team to guarantee product availability.
+\item Maintained a clean and organized workspace.
+\end{itemize}
+
+\cvsection{Projects}
+
+\cvevent{Co-Founder \& Business Lead}{Web Solutions Project (Freelance)}{}{}
+\begin{itemize}
+\item Co-founded a small initiative providing web development and digital improvements for local businesses.
+\item Acted as the main point of contact for clients, identifying needs and technical requirements.
+\item Managed project timelines, budgets, and final deliveries.
+\end{itemize}
+
+\divider
+
+\cvevent{Founder \& Lead Guitarist}{Queen Tribute Band Project}{Ongoing}{}
+Founded and led a musical project, coordinating a team of musicians for live performances. Managed technical arrangements, bookings, and promotion.
+
+\switchcolumn
+
+\cvsection{My Life Philosophy}
+
+\begin{quote}
+``Results-driven with a focus on perseverance, consistently overcoming challenges in high-pressure environments to ensure project success and guest satisfaction.''
+\end{quote}
+
+\cvsection{Most Proud of}
+
+\cvachievement{\faTrophy}{2024 National Futsal Champion}{Member of the national championship-winning team.}
+
+\cvsection{Strengths}
+
+\cvtag{Hard-working}
+\cvtag{Eye for detail}\\
+\cvtag{Motivator \& Leader}
+
+\cvsection{Languages}
+
+\cvskill{Spanish (Native)}{5}
+\divider
+\cvskill{English}{4}
+
+\medskip
+
+\cvsection{Education}
+
+\cvevent{High School}{San Buenaventura}{ 2019 -- 2023}{}
+Perito Mercantil (Economics)
+
+\divider
+
+\cvevent{English Institute}{AMICANA}{ 2018 -- 2023}{}
+
+\end{paracol}
+
+\end{document}
